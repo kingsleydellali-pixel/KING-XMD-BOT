@@ -1,0 +1,38 @@
+services:
+  - type: web
+    name: whatsapp-bot
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+      - key: SESSION_DIR
+        value: /opt/render/project/src/session
+      - key: PORT
+        value: 10000
+      - key: OWNER_NUMBER
+        sync: false
+      - key: PREFIX
+        value: .
+      - key: BOT_IMAGE_URL
+        sync: false
+      - key: ANTI_DELETE
+        value: "true"
+      - key: ANTI_LINK
+        value: "true"
+      - key: ANTI_CALL
+        value: "true"
+      - key: AUTO_STATUS
+        value: "true"
+      - key: AUTO_REACT
+        value: "true"
+      - key: AUTO_REACT_EMOJIS
+        value: "👍,❤️,😂,🔥,👀"
+      - key: ANTI_VIEWONCE
+        value: "true"
+    disk:
+      name: session
+      mountPath: /opt/render/project/src/session
+      sizeGB: 1
