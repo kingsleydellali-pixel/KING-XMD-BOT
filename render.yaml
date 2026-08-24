@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: whatsapp-bot
+    name: KING-XMD-BOT
     env: node
     plan: free
     buildCommand: "npm install"
