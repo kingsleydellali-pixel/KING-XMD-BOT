@@ -52,6 +52,6 @@ A professional WhatsApp bot built with **Baileys** featuring a **web dashboard**
 
 1. **Clone & install**
    ```bash
-   git clone https://github.com/yourusername/whatsapp-bot.git
-   cd whatsapp-bot
+   git clone https://github.com/kingsleydellali-pixel/KING-XMD-BOT.git
+   cd KING-XMD-BOT
    npm install
