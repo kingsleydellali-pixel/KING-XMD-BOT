@@ -55,3 +55,32 @@ A professional WhatsApp bot built with **Baileys** featuring a **web dashboard**
    git clone https://github.com/kingsleydellali-pixel/KING-XMD-BOT.git
    cd KING-XMD-BOT
    npm install
+   ```
+   2. Configure environment
+   ```bash
+   cp env.example .env
+   # Edit .env with your values
+   ```
+3. Run
+   ```bash
+   npm start
+   ```
+4. Open http://localhost:3000 in your browser to link the bot.
+
+---
+
+🚀 Deployment on Render
+
+1. Fork / upload this repository to GitHub.
+2. Go to Render.com → New + → Blueprint.
+3. Select your repository and confirm the render.yaml blueprint.
+4. Fill in required environment variables:
+   · OWNER_NUMBER – your WhatsApp number with country code (no +).
+   · BOT_IMAGE_URL – (optional) URL of bot image.
+5. Important: Attach a Persistent Disk to the service (already in render.yaml). This stores your WhatsApp session, so you don’t need to re-scan the QR code every time.
+6. Click Apply and wait for the build to finish.
+7. Once deployed, open the provided onrender.com URL to access the dashboard and link your WhatsApp.
+
+Note: The free Render plan may spin down after inactivity. The bot will restart automatically when a new request comes in, but messages sent while offline may be missed.
+
+---
