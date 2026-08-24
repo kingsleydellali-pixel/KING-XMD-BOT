@@ -84,3 +84,5 @@ A professional WhatsApp bot built with **Baileys** featuring a **web dashboard**
 Note: The free Render plan may spin down after inactivity. The bot will restart automatically when a new request comes in, but messages sent while offline may be missed.
 
 ---
+## 📦 Deploy Now
+| 🔵 Render | [![Deploy to Render](https://img.shields.io/badge/DEPLOY-RENDER-blue?style=for-the-badge&logo=render)](https://dashboard.render.com/) |
