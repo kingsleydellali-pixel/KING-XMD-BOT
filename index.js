@@ -77,7 +77,7 @@ app.get('/', (req, res) => {
   <!DOCTYPE html>
   <html>
   <head>
-    <title>WhatsApp Bot Dashboard</title>
+    <title>𝔎𝔦𝔫𝔤_𝔅𝔩𝔢𝔰𝔰 𝔗𝔢𝔠𝔥 Bot Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
       body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; margin: 0; padding: 20px; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
