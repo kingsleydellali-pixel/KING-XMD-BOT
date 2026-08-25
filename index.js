@@ -97,7 +97,7 @@ app.get('/', (req, res) => {
   </head>
   <body>
     <div class="card">
-      <h1>🤖 WhatsApp Bot</h1>
+      <h1>🤖𝔎𝔦𝔫𝔤_𝔅𝔩𝔢𝔰𝔰 𝔗𝔢𝔠𝔥 WhatsApp Bot</h1>
       <div id="status" class="status disconnected">Disconnected</div>
       <div class="qr-section">
         <h3>Scan QR Code</h3>
